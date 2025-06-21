@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-
+import { useState, useEffect } from 'react';
+import React from 'react';
 const Clock = () => {
   const [time, setTime] = useState(new Date());
 
@@ -9,8 +9,8 @@ const Clock = () => {
   }, []);
 
   return (
-    <div style={{ color: "white", fontSize: "34px", fontWeight: "bold" }}>
-      <p>{time.toLocaleTimeString("vi-VN", { hour12: false })}</p>
+    <div style={{ color: 'white', fontSize: '34px', fontWeight: 'bold' }}>
+      <p>{time.toLocaleTimeString('vi-VN', { hour12: false })}</p>
     </div>
   );
 };

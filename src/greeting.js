@@ -3,10 +3,10 @@ export default function getGreeting() {
   const hour = now.getHours();
 
   if (hour >= 5 && hour < 12) {
-    return "Chúc bạn buổi sáng tràn đầy năng lượng!";
+    return 'Chúc bạn buổi sáng tràn đầy năng lượng!';
   } else if (hour >= 12 && hour < 18) {
-    return "Chúc bạn buổi chiều vui vẻ!";
+    return 'Chúc bạn buổi chiều vui vẻ!';
   } else {
-    return "Chúc bạn buổi tối ấm áp!";
+    return 'Chúc bạn buổi tối ấm áp!';
   }
 }
